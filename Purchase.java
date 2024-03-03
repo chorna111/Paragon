@@ -1,12 +1,9 @@
-
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 
 public class Purchase{
     public  List<Item> list_of_items=new ArrayList<>();
-    public HashMap<Integer,Float> suma_vat=new HashMap<Integer,Float>();
     private float suma_netto_vat8;
     private float suma_netto_vat23;
     private float taxes_8;
