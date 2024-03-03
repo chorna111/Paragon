@@ -27,7 +27,7 @@ public class Item{
         return vat;
     }
     public void setVat(int vat) {
-        if(vat==23|vat==8){
+        if(vat==23||vat==8){
 
             this.vat = vat;
         }else{
